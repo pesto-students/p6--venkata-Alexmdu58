@@ -1,0 +1,60 @@
+Web Browser:
+
+function of browser
+- It is a application software used to find,access,diplay and view websites.
+- When We request over the network to the server, it responds with collection 
+  of web content,brower interprets the content and displays the page
+- The browser serve as a mediator between the end device and the website content
+
+High level component of browser
+
+- user iterface
+	this includes the address bar, back/forward button, bookmarking menu
+	
+- browser engine
+	will direct the action between ui and the rendering engine
+	
+- rendering engine
+	responsible for displaying the visual representation of the web
+	Blink	- chrome,opera
+	Webkit 	- Safari
+	Gecko 	- Firefox
+	
+- Networking
+	To receive content, browser has to communicate over the network
+	
+- Interpreter
+	For interactive logic and function, we rely on programming language but
+	browser as no idea how to deal with javascript directly, it is done with interpreter
+	chakra 			- Microsoft Edge
+	SpiderMonkey 	- Firefox
+	v8 				- Google Chrome
+	
+- Data storage
+	To save all sorts data locally like cookies and local storage
+
+Rendering engine
+-	By default the rendering engine can display HTML and XML documents and images. 
+	It can display other types of data via plug-ins or extension; for example, displaying 
+	PDF documents using a PDF viewer plug-in
+	
+	Parsing --> Tree construction --> Layout --> Painting
+	
+Parsing
+	The requested HTML page is parsed in chunks, including the external CSS files and 
+	in style elements, by the rendering engine. The HTML elements are then converted 
+	into DOM nodes to form a “content tree” or “DOM tree.”
+	
+Tree construction
+	This tree includes both the styling information as well as the visual instructions 
+	that define the order in which the elements will be displayed. The render tree ensures that the content 
+	is displayed in the desired order.
+Layout 
+	When a render tree is created, the position or size values are not assigned. 
+	The entire process of calculating values for evaluating the desired position is called a layout process.
+	In this process,every node is assigned the exact coordinates. 
+	This ensures that every node appears at an accurate position on the screen.
+Painting
+	The final step is to paint the screen, wherein the render tree is traversed, and 
+	the renderer’s paint() method is invoked, which paints each node on the screen using the UI backend layer.
+
