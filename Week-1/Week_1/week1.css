@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.Lside {
+  background: #e3e1da;
+  display: inline-block;
+}
+
+.las, .lab {
+  padding: 30px 10px;
+  width: auto;
+}
+
+.top {
+  background-color: #434647;
+  margin-left: 40px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.catty_image {
+  padding: 20px;
+  float: left;
+}
+
+.title {
+  color: white;
+  display: inline;
+}
+
+table {
+  width: 100%;
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  line-height: 3;
+  border-collapse: collapse;
+
+}
+
+
+.btn {
+  color: blue;
+
+}
+
+.even {
+  background: #e3e1da;
+}
+
+.bottom {
+  background-color: #446c91;
+
+}
+
+.catty_image2 {
+  padding: 10px;
+
+}
+
+.cBottom {
+  color: white;
+  position: absolute;
+  bottom : 50px;
+  left: 270px;
+}
+
+.rBottom {
+  color: white;
+  position: absolute;
+  bottom : 50px;
+  right: 50px;
+}
