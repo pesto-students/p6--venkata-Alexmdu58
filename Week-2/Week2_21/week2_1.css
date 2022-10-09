@@ -1,0 +1,36 @@
+
+body{
+  background-color: #FFE4B5;
+}
+
+h1{
+  color: #CD5C5C;
+  text-align: center;
+}
+
+h2{
+  margin: 20px;
+}
+
+.first{
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.f1 ,.f2 {
+  margin: 40px;
+  c
+}
+
+.s1{
+  margin-bottom: 20px;
+}
+
+.image{
+  width: 250px;
+  height:250px;
+  float: left;
+  margin: 20px;
+}
